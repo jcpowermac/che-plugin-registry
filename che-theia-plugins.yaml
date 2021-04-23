@@ -781,3 +781,11 @@ plugins:
       memoryLimit: "512Mi"
     extensions:
       - https://open-vsx.org/api/jebbs/plantuml/2.14.0/file/jebbs.plantuml-2.14.0.vsix
+  - repository:
+      url: 'https://github.com/PowerShell/vscode-powershell'
+      revision: v2021.2.2
+    sidecar:
+      directory: powershell
+      name: vscode-powershell
+    extensions:
+      - https://github.com/PowerShell/vscode-powershell/releases/download/v2021.2.2/PowerShell-2021.2.2.vsix
